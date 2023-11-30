@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.all {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background-image: url(./main\ img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  position: relative;
+}
+
+.navbar {
+  width: 85%;
+  margin: 0 auto;
+  height: auto;
+  padding: 25px 0px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  transition: 1.5s;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+label {
+  display: none;
+}
+.input {
+  display: none;
+}
+.log {
+  display: none;
+}
+.li {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.lil {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.logo {
+  width: 220px;
+}
+.ins {
+  width: auto;
+  height: auto;
+  background-color: rgba(54, 203, 255, 1);
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+
+.one {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.pro {
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+  font-family: "Courier New", Courier, monospace;
+}
+.look {
+  color: white;
+  padding-top: 25px;
+}
+.see {
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 13px 45px;
+  border: none;
+  margin-top: 35px;
+  margin-bottom: 73px;
+}
+
+.sec {
+  width: 85%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.hi {
+  font-weight: bold;
+  font-size: 35px;
+}
+.wel {
+  color: gray;
+  font-size: 18px;
+  padding: 25px 85px 25px 0px;
+}
+.ture {
+  width: 450px;
+}
+
+.third {
+  width: 100%;
+  height: auto;
+  margin-top: 110px;
+  background-image: url(./1_camping-area-landscape_23-2148653238\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.for {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+  padding-bottom: 65px;
+}
+.how {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 45px;
+}
+.five {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 75px 0px;
+}
+.con {
+  width: 85px;
+}
+.gar {
+  font-weight: bold;
+  font-size: 33px;
+}
+.do {
+  padding-top: 25px;
+}
+
+.six {
+  width: 85%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 120px;
+}
+.ics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.we {
+  text-align: center;
+  padding-top: 45px;
+  font-size: 20px;
+}
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 55px;
+  gap: 105px;
+}
+.diss {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 35px;
+  gap: 85px;
+}
+.pri {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.bir {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.ven {
+  width: 85px;
+  border-radius: 40%;
+}
+.wil {
+  font-weight: bold;
+  font-size: 24px;
+}
+.tho {
+  color: gray;
+  padding-top: 5px;
+}
+.ikki {
+  border-left: 1px solid black;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.spec {
+  width: 100%;
+  height: auto;
+  background-image: url(./2_flat-jungle-background_23-2148973138-transformed\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 35px 0px;
+}
+.specs {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 35px 0px;
+}
+.oq {
+  width: 45%;
+  margin: 0 auto;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 25px;
+  position: relative;
+}
+.oqs {
+  width: 85%;
+  margin: 0 auto;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 25px;
+  position: relative;
+}
+.reg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.regs {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 45px;
+  font-size: 35px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  gap: 45px;
+}
+.flexs {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  gap: 45px;
+}
+.mage {
+  width: 45px;
+}
+.int {
+  width: 100%;
+  margin-top: 25px;
+  border: 1px solid rgba(168, 168, 168, 1);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fleks {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 35px;
+}
+.rec {
+  width: 15px;
+}
+.ton {
+  text-align: center;
+  margin-top: 45px;
+}
+.ups {
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  padding: 20px 60px;
+  border: none;
+}
+
+.foot {
+  width: 95%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.ter {
+  text-align: center;
+}
+.has {
+  padding-top: 45px;
+}
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 35px;
+}
+.div {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.sak {
+  width: 30px;
+}
+.get {
+  font-size: 12px;
+  text-align: left;
+}
+.bosh {
+  margin-left: 10px;
+  justify-content: start;
+}
+.eal {
+  color: gray;
+  padding-top: 10px;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 55px;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.none {
+  display: none;
+}
+.closeBtn {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+@media (max-width: 900px) {
+  .foot {
+    display: block;
+  }
+  .qasi {
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 860px) {
+  label {
+    display: block;
+  }
+  .navbar .input:checked ~ ul {
+    transform: translate(0);
+  }
+  ul {
+    position: fixed;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+    transform-origin: top;
+    color: black;
+  }
+  ul label {
+    align-self: flex-end;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  .log {
+    display: flex;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .pic {
+    display: none;
+  }
+  .wel {
+    padding: 0px;
+    padding-top: 25px;
+  }
+  .for {
+    display: block;
+  }
+  .five {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .dis {
+    display: block;
+    text-align: center;
+  }
+  .diss {
+    display: block;
+    text-align: center;
+  }
+  .pri {
+    padding-top: 15px;
+  }
+  .oq {
+    width: 70%;
+  }
+  .oqs {
+    width: 100%;
+  }
+}
+
+@media (max-width: 510px) {
+  .modal {
+    padding: 15px;
+  }
+  .oq {
+    width: 97%;
+  }
+  .oqs {
+    padding: 15px;
+  }
+  .regs {
+    margin-top: 85px;
+  }
+  .flexs {
+    display: block;
+  }
+}
+
+@media (max-width: 460px) {
+  .sev {
+    display: block;
+  }
+  .bir {
+    justify-content: center;
+  }
+  .ikki {
+    border: none;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .pro {
+    font-size: 40px;
+  }
+  .five {
+    width: 100%;
+  }
+  .blog {
+    display: block;
+  }
+  .div {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .flex {
+    display: block;
+  }
+  .mage {
+    margin-top: 10px;
+  }
+  .reg {
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 310px) {
+  .pro {
+    font-size: 35px;
+  }
+}
